@@ -19,4 +19,15 @@ h1 {
   font-family: courier;
   font-size: 20px;
   color: white;
+  padding-top: 20px;
+}
+h2 {
+  display: block;
+  text-align: center;
+  font-family: courier;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0
 }
