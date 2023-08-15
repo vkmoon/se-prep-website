@@ -1,0 +1,22 @@
+head {
+  display: block;
+}
+title {
+  display: block;
+  font-size: 100px;
+  font-family: courier;
+  font-weight: bold;
+  color: lightcoral;
+  text-align: center;
+  background-color: antiquewhite;
+}
+body {
+    background: lightskyblue;
+  }
+h1 {
+  display: block;
+  text-align: center;
+  font-family: courier;
+  font-size: 20px;
+  color: white;
+}
