@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css" />
-    <title>My Personal Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+    <title>
+    Strawberry's Dog Blog
+    </title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <script src="script.js"></script>
+    <div id="header">
+      <div id="photo-1">
+        <img id="Strawbie" src="https://i.imgur.com/1QfKs1W.jpg" alt=Strawb width=150 height=200>
+      </div>
+      <div><h1>Strawberry's Blog</h1></div>
+    </div>
+    <div class="typewriter">
+      <p>Welcome to my Doghouse :)</p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="https://i.imgur.com/7x83n5k.jpg" alt="Plant" style="height:200px;width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="https://i.imgur.com/ZifLHPg.jpg" alt="Bed" style="height:200px;width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="https://i.imgur.com/1AmYy7b.jpg" alt="STLD" style="height:200px;width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="https://i.imgur.com/KS1E7Fz.jpg" alt="Cabin" style="height:200px;width:100%" onclick="myFunction(this);">
+      </div>
+    </div>
+    <div class="container">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      <img id="expandedImg" src="https://i.imgur.com/7x83n5k.jpg" style="max-width: 1250px">
+      <div id="imgtext"></div>
+    </div>
+    <a href="https://www.github.com/vkmoon">
+      <div>Made by Valeria</div>
   </body>
 </html>

@@ -1,5 +1,7 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-
-
-document.querySelector("body").appendChild(h2);
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
