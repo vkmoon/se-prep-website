@@ -60,23 +60,10 @@ div#photo-1 {
   clear: both;
 }
 .container {
-  position: relative;
-  display: inline-block;
-}
-#imgtext {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: black;
-  font-size: 20px;
-}
-.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
-  font-size: 535x;
-  cursor: pointer;
+  width: 1250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .typewriter p {
   color: black;
@@ -94,7 +81,7 @@ div#photo-1 {
 }
 @keyframes typing {
   from { width: 0 }
-  to { width: 50% }
+  to { width: 100% }
 }
 @keyframes blink-caret {
   from, to { border-color: transparent }
